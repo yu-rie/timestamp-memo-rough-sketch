@@ -87,6 +87,7 @@ id('title').addEventListener('keydown', (e) => {
             id('title').value = '';
             id('url').value = '';
         });
+        id('comment').focus();
         save();
     });
 
